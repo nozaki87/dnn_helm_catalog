@@ -1,0 +1,5 @@
+image:
+  repository: nvidia/cuda
+  tag: 10.0-base-ubuntu18.04
+resource:
+  nGPU: 1
