@@ -1,20 +1,20 @@
-# questions:
-# - variable: image.repository
-#   default: true
-#   description: "CUDA Docker Image Repo"
-#   label: "CUDA Docker Image Repo"
-#   default: "nvidia/cuda"
-#   type: string
-# - variable: image.tag
-#   default: true
-#   description: "CUDA Docker Image Tag"
-#   label: "CUDA Docker Image Tag: Please check https://hub.docker.com/r/nvidia/cuda/"
-#   default: "10.0-base-ubuntu18.04"
-#   type: string
-# - variable: resource.nGPU
-#   default: 1
-#   min: 0
-#   max: 32
-#   description: "Required number of GPU"
-#   type: string
-#   label: Required number of GPU
+questions:
+- variable: image.repository
+  default: true
+  description: "CUDA Docker Image Repo"
+  label: "CUDA Docker Image Repo"
+  default: "nvidia/cuda"
+  type: string
+- variable: image.tag
+  default: true
+  description: "CUDA Docker Image Tag"
+  label: "CUDA Docker Image Tag: Please check https://hub.docker.com/r/nvidia/cuda/"
+  default: "10.0-base-ubuntu18.04"
+  type: string
+- variable: resource.nGPU
+  default: 1
+  min: 0
+  max: 32
+  description: "Required number of GPU"
+  type: string
+  label: Required number of GPU
