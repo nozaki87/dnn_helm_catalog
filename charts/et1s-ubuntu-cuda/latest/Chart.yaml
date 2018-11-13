@@ -1,7 +1,7 @@
 name: et1s-ubuntu-cuda
 description: Simple CUDA Enabled Ubuntu
-version: 18.04.1-cuda10.0+001
+version: latest
 home: https://github.com/helm/helm
 sources:
   - https://github.com/helm/helm
-appVersion: 18.04.1-cuda10.0+001
+appVersion: latest
